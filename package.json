@@ -8,11 +8,12 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
+    "i18next": "^23.8.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-i18next": "^14.0.5",
+    "react-icons": "^5.0.1",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -41,6 +42,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
     "nock": "^13.1.1"
   }
 }

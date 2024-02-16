@@ -1,0 +1,150 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 48px; 
+    color: #E42F2F; 
+  }
+  
+  .add-item {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    font-size: 26px;
+    border: none;
+    outline: none; 
+    font-family: inherit; 
+    padding: 0; 
+    background: none;
+    margin: 0; 
+    width: auto; 
+  }
+
+  .input::placeholder {
+    font-style: italic;
+  }
+  
+  .edit-input {
+    border: none;
+    outline: none; 
+    font-size: inherit; 
+    font-family: inherit; 
+    padding: 0; 
+    background: none; 
+    margin: 0; 
+    width: auto; 
+  }
+
+  .add-button {
+    margin-left: 100px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 10px;
+  }
+  
+  .task-list {
+    padding: 0;
+  }
+  
+  .task {
+    width: auto;
+    position: relative;
+    font-size: 24px;
+    padding: 12px;
+    margin: 0;
+    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+
+  .task.completed {
+    background-color: #f9f9f9;
+    text-decoration: line-through;
+    color:#BCBCBC ;
+  }
+  
+  .task.editing .text {
+    display: none;
+  }
+  
+  .checkbox {
+    margin-right: 15px;
+    width: 20px; 
+    height: 20px; 
+    padding: 0; 
+    border: 2px solid #ccc; 
+    border-radius: 50% !important; 
+ 
+  }
+  
+  .remove-button {
+    margin-left: auto;
+    background-color: #E5E2E2;
+    color: #E42F2F;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .filter-buttons {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 28px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .filter-buttons button {
+    font-size: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none; 
+}
+
+.filter-buttons button:hover,
+.filter-buttons button:focus {
+  outline: 2px solid red; 
+}
+
+.creator-content {
+  position: relative;
+  color:#727272 ;
+  font-size: 18px;
+  padding: 12px;
+  align-items: center;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+.remaining-tasks {
+    flex-grow: 1;
+    text-align: left;
+    border: none;
+    margin: 15px 0px;
+    font-weight: bold;
+    
+  }
+  
+  .remove-completed {
+    background: none;
+    border: none;
+    margin-left: auto;
+  }
